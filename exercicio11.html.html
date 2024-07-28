@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script>
+      function temperatura(celsius) {
+          return (celsius * 9/5) + 32;
+      }
+
+      let tcelsius = parseFloat(prompt("DIGITE A TEMPERATURA EM GRAUS CELSIUS: "));
+
+      let fahrenheit = temperatura(tcelsius);
+
+      document.write(tcelsius + " É IGUAL A " + fahrenheit + " GRAUS FAHRENHEIT");
+
+  </script>
+
+</body>
+
+</html>

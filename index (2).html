@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script>
+      function porcentagem(num, percentual) {
+          return (num * percentual) / 100;
+      }
+
+      let num = parseFloat(prompt("DIGITE UM NÚMERO: "));
+      let percentual = parseFloat(prompt("DIGITE O PERCENTUAL DESEJADO: "));
+
+      let resul = porcentagem(num, percentual);
+
+      document.write("A PORCENTAGEM DE " + num +  " É: " + resul + "%");
+
+  </script>
+
+</body>
+
+</html>
